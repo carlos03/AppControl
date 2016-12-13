@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/friend_profile_picture"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_face_black_48dp"/>
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/img_mano_check"
+            android:layout_toRightOf="@+id/friend_profile_picture"
+            android:paddingTop="20dp"
+            android:text="Titulo"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/txtSubtitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitulo"
+            android:layout_toLeftOf="@id/img_mano_check"
+            android:layout_toRightOf="@+id/friend_profile_picture"
+            android:paddingBottom="20dp"
+            android:text="Subtitulo"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:id="@+id/img_mano_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_check_circle_green_700_18dp"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+</LinearLayout>

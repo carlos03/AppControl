@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">App Control</string>
+
+    <!-- common -->
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="close">Close</string>
+    <string name="resume">Resume</string>
+    <string name="pause">Pause</string>
+    <string name="cancel">Cancel</string>
+    <string name="stop">Stop</string>
+
+    <!-- API list name -->
+    <string name="session_management">Session management</string>
+    <string name="device_controlling">Device Controlling</string>
+    <string name="device_management">Device Management</string>
+    <string name="device_locking">Device Locking</string>
+    <string name="event_sharing">Event Sharing</string>
+    <string name="media_sharing">Media Sharing</string>
+    <string name="file_sharing">File Sharing</string>
+    <string name="screen_shot">Screen Shot</string>
+    <string name="screen_sharing">Screen Sharing</string>
+
+    <!-- Device Admin -->
+    <string name="enabled_device_admin">Enabled the device admin</string>
+    <string name="disabled_device_admin">Disabled the device admin</string>
+    <string name="password_changed_device_admin">Password changed</string>
+
+    <!-- Sign in -->
+    <string name="init_app">Initializing...</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_id">Enter your ID</string>
+    <string name="auto_id_generation">Automatic ID generation</string>
+    <string name="remember_name">Remember</string>
+    <string name="user_id">User ID</string>
+    <string name="user_name">User name</string>
+    <string name="user_type">User type</string>
+    <string name="discovery_type">Discovery</string>
+    <string name="wifi">Wifi</string>
+    <string name="ble">BLE</string>
+
+    <!-- Course list UI -->
+    <string name="create_course">Create course</string>
+    <string name="select_course">Select course</string>
+    <string name="notice_for_student">This device can be controlled by a teacher \nif you select and join a course.</string>
+    <string name="course_name">Name</string>
+    <string name="enter_course_name">Enter course name</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="description">Description</string>
+    <string name="enter_description">Enter description</string>
+    <string name="use_last_info">Use last course information</string>
+    <string name="start">Start</string>
+    <string name="start_lesson">Starting lesson ... </string>
+    <string name="join_lesson">Joining lesson</string>
+    <string name="join_failed">Join failed:\n%1$s</string>
+
+
+    <!-- Course main -->
+    <string name="api_test">API Test</string>
+    <string name="app_exam">APP Examples</string>
+    <string name="graph_exam">Smart Graph</string>
+    <string name="online">Online</string>
+    <string name="select_module">Select Module</string>
+    <string name="select_app">Select App</string>
+    <string name="select_graph">Select Graph</string>
+    <string name="course_close_dialog_body">Do you want to close course?</string>
+
+
+    <!-- Api test -->
+    <string name="result">Result</string>
+    <string name="select_user">Select User</string>
+    <string name="select_none">Select None</string>
+    <string name="select_all">Select All</string>
+    <string name="processing">Processing</string>
+
+    <string name="locked_status">LOCKED STATUS</string>
+    <string name="screen">Screen</string>
+    <string name="status_bar">Status bar</string>
+    <string name="hardware_key">Hardware key</string>
+    <string name="device_status">DEVICE STATUS</string>
+    <string name="mute_sound">Mute sound</string>
+
+    <!-- MediaAgent Api Test -->
+    <string name="restart">Restart</string>
+    <string name="get_duration">Get Duration</string>
+    <string name="get_playback">Get Playbacktime</string>
+    <string name="seek_to">Seek To</string>
+    <string name="milliseconds">Milliseconds</string>
+    <string name="state_title">State</string>
+    <string name="ducation_title">Duration</string>
+    <string name="playback_title">PlaybackTime</string>
+    <string name="recording_title">Now recording...</string>
+
+    <!-- FileShareAgent Api Test -->
+    <string name="get_transaction_id">Get transaction ID</string>
+    <string name="file_share_state">State</string>
+    <string name="file_name">File name</string>
+    <string name="state_sending">Sending...</string>
+    <string name="state_receiving">Receiving...</string>
+    <string name="state_paused">Paused</string>
+    <string name="state_completed">Completed</string>
+    <string name="state_failed">Failed</string>
+    <string name="state_canceled">Canceled</string>
+    <string name="transaction_id_title">Transaction ID :</string>
+
+    <!-- ScreenShareAgent Api Test -->
+    <string name="change_target">Change Target</string>
+    <string name="change_property">Change Property</string>
+    <string name="screenshare_paused">Screen sharing is paused</string>
+    <string name="screenshare_resumed">Screen sharing is resumed</string>
+
+    <!-- App Samlpe Test -->
+    <string name="win_my_teacher">Win My Teacher</string>
+    <string name="find_quiz_winner">Find Quiz Winner</string>
+    <string name="crossword_puzzle">CrossWord Puzzle</string>
+    <string name="crossword_topic">Topic</string>
+    <string name="crossword_ready">Your game is about to start</string>
+    <string name="crossword_wordsFound">Words Found : </string>
+    <string name="crossword_difficulty">Difficulty</string>
+    <string name="crossword_startGame">Start Game</string>
+    <string name="crossword_sendGame">Send Game</string>
+    <string name="crossword_stopGame">Stop Game</string>
+    <string name="crossword_endGame">End Game</string>
+    <string name="crossword_result"> Congratulation!!</string>
+    <string name="crossword_winner">You are "The word Champion".</string>
+    <string name="wait_for_student_response">Waiting for student response...</string>
+    <string name="submitted_answer">submitted answer</string>
+    <string name="fastest">is the fastest</string>
+    <string name="correct_answer">Correct Answer</string>
+    <string name="wrong_answer">Wrong answer</string>
+    <string name="start_quiz">Start quiz</string>
+    <string name="question">Question : </string>
+    <string name="answer">Answer : </string>
+    <string name="submit">Submit</string>
+    <string name="response_submitted">Your response is submitted</string>
+    <string name="question_hint">Enter the question</string>
+    <string name="answer_hint">Enter the answer</string>
+    <string name="sorry_late">Sorry! You are late</string>
+
+    <string name="save_answer">Save answer</string>
+    <string name="problem_sent_message">Sent</string>
+
+    <string name="problem_sent_title">Problem</string>
+    <string name="message_answer_saved">Answer saved</string>
+
+    <string name="help_message">Please enter the problem and answer in the below area, respectively, and then click the send button</string>
+
+    <string name="new_quiz_notice_body">A new quiz will be sent and students who did not solve the previous one will be loser. Continue?</string>
+    <string name="continue_next">Next round</string>
+    <string name="end">End</string>
+
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissors</string>
+
+    <string name="selected_button">You selected </string>
+
+    <string name="win_game">Win the game</string>
+    <string name="fail_game">Lose the game</string>
+    <string name="no_online_student">No students are online</string>
+
+    <string name="win_count">Win : %d</string>
+    <string name="fail_count">Fail : %d</string>
+    <string name="total_count">Total : %d</string>
+    <string name="round_count">Round %d</string>
+
+
+    <string name="time_out">Time out</string>
+
+    <string name="winner_list">Winners</string>
+    <string name="teahcer_wins">Teacher wins</string>
+    <string name="final_winner">You are the final winner</string>
+
+    <string name="app_example_close_dialog_body">Do you want to close sample app?</string>
+
+    <!-- SmartGraph Titles -->
+    <string name="bar_graph_title">1: Demonstrates Basic Bar Chart with x and y axes. \n2: After zooming/panning double tap will give the initial view of the Bar Graph</string>
+    <string name="candle_graph_title">1: Demonstrates the Basic Candle Chart with x and y axes. \n2: Horizontal Scroll API demonstrated using left and right Pan Buttons</string>
+    <string name="labresult_graph_title">1: Checkbox for Showing connected lines. \n2: Display series data points on 1st X-axis</string>
+    <string name="line_graph_title">1: Demonstrates Basic Line Graph with different rendering style of series. \n2: Long press on the datapoint shows the value of that datapoint.</string>
+    <string name="multiple_graph_title">1: Demonstrates a basic Multi Axis Chart with 2 x axes and 4 y axes. \n2: CheckBox to enable and disable show chart values</string>
+    <string name="pie_graph_title">1: Demonstrates Basic Pie Chart with 5 sectors with different colors. \n2: Sector Names and Sector labels are shown together.</string>
+    <string name="combined_graph_title">1: Demonstrates the Vital Sign Graph with 1 x axis and 2 y axes. \n2: Checkbox for toggling of series. \n3: Update Table button for dynamically updating the graph content. \n4: Selection of Data points</string>
+
+    <!-- SmartGraph sub strings -->
+    <string name="scroll_left">Scroll Left</string>
+    <string name="scroll_right">Scroll Right</string>
+    <string name="lab_checkbox_text">Show Connecting Lines</string>
+    <string name="lab_toggle_text">Toggle Button</string>
+
+    <!-- Main Activity :: perfil de clases  -->
+    <string name="titulo.perfil.clases">Perfil de Clases</string>
+    <string name="titulo.clases">Nombre de la clase materia y curso</string>
+
+</resources>
